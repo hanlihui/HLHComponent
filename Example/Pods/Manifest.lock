@@ -1,0 +1,16 @@
+PODS:
+  - HLHComponent (0.1.0)
+
+DEPENDENCIES:
+  - HLHComponent (from `../`)
+
+EXTERNAL SOURCES:
+  HLHComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HLHComponent: 99072574fb05b2524584e90e50e72598f10f4a55
+
+PODFILE CHECKSUM: bda109e9aafc1ccdcf2bfff57d10ef3ad9b8e2a3
+
+COCOAPODS: 1.2.0

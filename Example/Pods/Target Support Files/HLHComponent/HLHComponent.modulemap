@@ -1,0 +1,6 @@
+framework module HLHComponent {
+  umbrella header "HLHComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}

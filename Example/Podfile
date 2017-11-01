@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'HLHComponent_Example' do
+  pod 'HLHComponent', :path => '../'
+end

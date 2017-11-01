@@ -1,0 +1,855 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0180CA7E0B1B44524B43F3E554A7411F /* UIButton+HLHExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 8853830CC7C7F60291B9E9DA0D3B6A22 /* UIButton+HLHExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0400DF60C57F6B8BD5C887D3C8244E13 /* UIDevice+HLHExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 92214A0186760CDEE15A3EE16E586278 /* UIDevice+HLHExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0431D9C4B80B726A76D82B32D1883077 /* UIView+HLHExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 5205080308D84868AA1A4F5CD2164E16 /* UIView+HLHExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0573F0877FD7F16195E337BCA583AC1F /* UIImage+HLHExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE71D36EC863B91C921B4F24168055A /* UIImage+HLHExtend.m */; };
+		0E0DB13AFFCB51E9232B1A7FE47E2062 /* UIImage+HLHExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 22EC0E0008137297B6FB434F1A03C05B /* UIImage+HLHExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		124019BA9C5B3DFB4D872EA02AA4D65D /* NSNotificationCenter+HLHExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = F7386DD9E490B143CCC0F1236EC5E54C /* NSNotificationCenter+HLHExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1424F502766E8E07CDE7ED81631DC153 /* HLHComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B276A96010484D31D77DE9566BE623A0 /* HLHComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23A5C876548D24F610ED650D66145DDD /* Pods-HLHComponent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A10FCDA0AC2ADFD1F8C7FB4D13801ECB /* Pods-HLHComponent_Example-dummy.m */; };
+		2D5DB56084F3D3D8AB14DBD1598F4995 /* HLHGlobalMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 81438DEDED0C9B580FDC6ADDD37FE05B /* HLHGlobalMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E9EE4DA62D133933151C39167E73176 /* UITextField+HLHExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 738C61D2E8AC3FAFEFC426B7C8ABB370 /* UITextField+HLHExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32CD0596471678FA4E2E6CD88125A342 /* Constraints.h in Headers */ = {isa = PBXBuildFile; fileRef = FFD801D1182696F73D5AC9648B5F2E70 /* Constraints.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33A5D0F92E09DE9E6F65C0715B19E7ED /* HLHComponent.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 630F43FBDD644A35021A5958FE03EAEB /* HLHComponent.bundle */; };
+		46478F2EBA44450755F9D2710120F45F /* HLHCommonTableData.h in Headers */ = {isa = PBXBuildFile; fileRef = AC82BC31D1E6F9649A764589745360B7 /* HLHCommonTableData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49747085F72E660C6DFF30CF76F387B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		52E570528BA16E63670C4F6C818227D2 /* HLHCommonTableDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F58EDC21105B3595C6F906E400A6C70B /* HLHCommonTableDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5461E438E1B0C7F5EF30B9430D0FDFBC /* HLHComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BF8BE916DF2FADFEA2A1CD10774980 /* HLHComponent-dummy.m */; };
+		5CB25E1525AF26AB5789E2569FFD5D7F /* NSTimer+HLHExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 434E3602D997F53B1875F6A9A2A1CF83 /* NSTimer+HLHExtend.m */; };
+		63F6DBD1B32F41F392833ED5116DFE46 /* NSTimer+HLHExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF3B64DEBF2659C7075A7698E47AB12 /* NSTimer+HLHExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		658A898F84B5691FB7A69AE0553F349A /* NSDate+HLHExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE55FCA9C11F2E1BA4DD3FD0E365E16 /* NSDate+HLHExtend.m */; };
+		6EB869401C7A8A98F4061AB8AE89EB2E /* UIButton+HLHExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C69380FAF80EFDD2A4BE71EEB1B6CC3 /* UIButton+HLHExtend.m */; };
+		7F36FAFB43455B2427A8E2B917BBA214 /* Pods-HLHComponent_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D448E791C99A3CCCA70CC89B25AC0B /* Pods-HLHComponent_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81533EB218A7642652665F0E847466F1 /* UIView+HLHExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B2E678413312C28506AF0319F808EB /* UIView+HLHExtend.m */; };
+		86B58418631EDC814E0F75D55DC0869A /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A33FBD96814B9CE1423A84E788AB9A /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87A7C7999002BC0EA88D3C7EA81FA92A /* HLHCommonTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EAF9B11DF834130E6B3F48A4B1F90A /* HLHCommonTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B68B991DEC966ABA2A69DC2561B7400 /* HLHCommonTableDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A3B9DCB2232AAC3E1691C0ABC86B98 /* HLHCommonTableDelegate.m */; };
+		8B9AF5CDD2293866F8D0C59219F8DBCD /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D1382531385F22B759E5AAE4D46BF7 /* YYClassInfo.m */; };
+		8C98B65C58E303FF526658008595930F /* UIColor+HLHExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADCCBA654C0A5D6753787A1A4C61A3B /* UIColor+HLHExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A2B3878D8DEE3DE6F70DB88ED08DE8D /* NSString+HLHExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 402164C6440EB28A5E8EE10901A68E13 /* NSString+HLHExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EDDEC19AFE83DDF1AD853D3A50C38C0 /* NSNotificationCenter+HLHExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F07E2A5EB242901BD8D1D50CA118A81 /* NSNotificationCenter+HLHExtend.m */; };
+		AB1F7EE60113EACA8B4EC10C2F93252E /* NSString+HLHExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E904778383B4522A52EE07909BEEE8 /* NSString+HLHExtend.m */; };
+		AE089F9DF2631EB25A35D5654B82ED56 /* NSDictionary+HLHExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E02FABEA7E064F167F69F36DD11BE1E /* NSDictionary+HLHExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD27913613E9D8F47108C2A092E5C233 /* NSDate+HLHExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 665A793753CB903DB71D89AFD5109CF6 /* NSDate+HLHExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD50483327DCB9563C981124849874C7 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 788BB8E9BD741A4E5F920CA4DCA3A05E /* YYClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB8D9ADEEA5A6939C4F6F85DD4F9395F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CCB56C6C1F887734ECF1F37AE69DE351 /* UITextField+HLHExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 986DEC68C2D2C1CD89248D7214B95BF7 /* UITextField+HLHExtend.m */; };
+		D41A9DDFC92A5E9EA0E0ACFF4D1D0E8A /* UIColor+HLHExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 9721BEF201DADA5AF747E2D604C45AA2 /* UIColor+HLHExtend.m */; };
+		E12906BEF640BDC0C3E00826841EF0DF /* NSDictionary+HLHExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DA07A1888E63126D9AAE474A5779D7 /* NSDictionary+HLHExtend.m */; };
+		EBFB90646AD48889F02B694C54A90F4E /* HLHCommonTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B50C70394F80E9B4C2507EB2F42CBAC /* HLHCommonTableData.m */; };
+		F2E8E27F775370BB1C80A7EE37F989A7 /* UIDevice+HLHExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5C56EE4ADCE526C1E47CB17B29E48C /* UIDevice+HLHExtend.m */; };
+		F5E21063D756BE0D28898EE24589DFFA /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A161CE1238242B87FA96E48988802EDE /* NSObject+YYModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		479B22D66E767CBFBBDFE0648CADD289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C786C39DA1ACA3C0B16CA9E3131871BF;
+			remoteInfo = HLHComponent;
+		};
+		5B5FC5A1A7C758FB0D9C6C5BAB8F1AC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A62A2265FABE8BB6A56D6474689556F5;
+			remoteInfo = "HLHComponent-HLHComponent";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04EAF9B11DF834130E6B3F48A4B1F90A /* HLHCommonTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HLHCommonTableViewCell.h; sourceTree = "<group>"; };
+		0E31344ADA183943193554DB6659B7D9 /* Pods-HLHComponent_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLHComponent_Example-frameworks.sh"; sourceTree = "<group>"; };
+		116C0D96E21780D1E78E31D1B1940211 /* Pods-HLHComponent_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HLHComponent_Example.modulemap"; sourceTree = "<group>"; };
+		161487CF002280676DCB2C038BBC4372 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BE71D36EC863B91C921B4F24168055A /* UIImage+HLHExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HLHExtend.m"; sourceTree = "<group>"; };
+		22A3B9DCB2232AAC3E1691C0ABC86B98 /* HLHCommonTableDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HLHCommonTableDelegate.m; sourceTree = "<group>"; };
+		22EC0E0008137297B6FB434F1A03C05B /* UIImage+HLHExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+HLHExtend.h"; sourceTree = "<group>"; };
+		2F07E2A5EB242901BD8D1D50CA118A81 /* NSNotificationCenter+HLHExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+HLHExtend.m"; sourceTree = "<group>"; };
+		32A33FBD96814B9CE1423A84E788AB9A /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		402164C6440EB28A5E8EE10901A68E13 /* NSString+HLHExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+HLHExtend.h"; sourceTree = "<group>"; };
+		434E3602D997F53B1875F6A9A2A1CF83 /* NSTimer+HLHExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+HLHExtend.m"; sourceTree = "<group>"; };
+		44E904778383B4522A52EE07909BEEE8 /* NSString+HLHExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+HLHExtend.m"; sourceTree = "<group>"; };
+		4DF3B64DEBF2659C7075A7698E47AB12 /* NSTimer+HLHExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSTimer+HLHExtend.h"; sourceTree = "<group>"; };
+		4FD7CC581DEBF33A3D6A8F67DDEE5DCC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504DD8CB42156E87F2468AB04E2EE92E /* Pods-HLHComponent_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLHComponent_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5205080308D84868AA1A4F5CD2164E16 /* UIView+HLHExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+HLHExtend.h"; sourceTree = "<group>"; };
+		52739D58F062D7550A0FF5F2A8F330AE /* HLHComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HLHComponent.xcconfig; sourceTree = "<group>"; };
+		55531A3D0B19E66202F646D4E7C039CC /* ResourceBundle-HLHComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HLHComponent-Info.plist"; sourceTree = "<group>"; };
+		630F43FBDD644A35021A5958FE03EAEB /* HLHComponent.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HLHComponent.bundle; path = HLHComponent.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		665A793753CB903DB71D89AFD5109CF6 /* NSDate+HLHExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+HLHExtend.h"; sourceTree = "<group>"; };
+		69437241C965DE3F58CE16C5DD58A9C3 /* Pods-HLHComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLHComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6A48F6AF00156E0F79801785FA9D7B28 /* HLHComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HLHComponent.framework; path = HLHComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ADCCBA654C0A5D6753787A1A4C61A3B /* UIColor+HLHExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+HLHExtend.h"; sourceTree = "<group>"; };
+		71DA07A1888E63126D9AAE474A5779D7 /* NSDictionary+HLHExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HLHExtend.m"; sourceTree = "<group>"; };
+		738C61D2E8AC3FAFEFC426B7C8ABB370 /* UITextField+HLHExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+HLHExtend.h"; sourceTree = "<group>"; };
+		788BB8E9BD741A4E5F920CA4DCA3A05E /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		81438DEDED0C9B580FDC6ADDD37FE05B /* HLHGlobalMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HLHGlobalMacro.h; sourceTree = "<group>"; };
+		857DCCE314B01DFC062C4F6733DC4213 /* Pods_HLHComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HLHComponent_Example.framework; path = "Pods-HLHComponent_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86BF8BE916DF2FADFEA2A1CD10774980 /* HLHComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HLHComponent-dummy.m"; sourceTree = "<group>"; };
+		86D1382531385F22B759E5AAE4D46BF7 /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		8853830CC7C7F60291B9E9DA0D3B6A22 /* UIButton+HLHExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+HLHExtend.h"; sourceTree = "<group>"; };
+		88D448E791C99A3CCCA70CC89B25AC0B /* Pods-HLHComponent_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HLHComponent_Example-umbrella.h"; sourceTree = "<group>"; };
+		8B50C70394F80E9B4C2507EB2F42CBAC /* HLHCommonTableData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HLHCommonTableData.m; sourceTree = "<group>"; };
+		8E02FABEA7E064F167F69F36DD11BE1E /* NSDictionary+HLHExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HLHExtend.h"; sourceTree = "<group>"; };
+		92214A0186760CDEE15A3EE16E586278 /* UIDevice+HLHExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+HLHExtend.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96BB78B34910CCCBF04F5BB9EEFF0719 /* HLHComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLHComponent-prefix.pch"; sourceTree = "<group>"; };
+		9721BEF201DADA5AF747E2D604C45AA2 /* UIColor+HLHExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HLHExtend.m"; sourceTree = "<group>"; };
+		986DEC68C2D2C1CD89248D7214B95BF7 /* UITextField+HLHExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HLHExtend.m"; sourceTree = "<group>"; };
+		9C69380FAF80EFDD2A4BE71EEB1B6CC3 /* UIButton+HLHExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HLHExtend.m"; sourceTree = "<group>"; };
+		A10FCDA0AC2ADFD1F8C7FB4D13801ECB /* Pods-HLHComponent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HLHComponent_Example-dummy.m"; sourceTree = "<group>"; };
+		A161CE1238242B87FA96E48988802EDE /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		A7DBD5A624FA18F0C4A4971AE97CF5F2 /* Pods-HLHComponent_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLHComponent_Example-resources.sh"; sourceTree = "<group>"; };
+		AC5C56EE4ADCE526C1E47CB17B29E48C /* UIDevice+HLHExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+HLHExtend.m"; sourceTree = "<group>"; };
+		AC82BC31D1E6F9649A764589745360B7 /* HLHCommonTableData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HLHCommonTableData.h; sourceTree = "<group>"; };
+		AFE55FCA9C11F2E1BA4DD3FD0E365E16 /* NSDate+HLHExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HLHExtend.m"; sourceTree = "<group>"; };
+		B276A96010484D31D77DE9566BE623A0 /* HLHComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLHComponent-umbrella.h"; sourceTree = "<group>"; };
+		C7E0B8693B833BEB4CE621F413C24774 /* Pods-HLHComponent_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HLHComponent_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D0276070BBEBFBEECE52E2B0F6768618 /* Pods-HLHComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLHComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E49D5FA369E7FD6701BF34784FF75961 /* HLHComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HLHComponent.modulemap; sourceTree = "<group>"; };
+		E6B2E678413312C28506AF0319F808EB /* UIView+HLHExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+HLHExtend.m"; sourceTree = "<group>"; };
+		F58EDC21105B3595C6F906E400A6C70B /* HLHCommonTableDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HLHCommonTableDelegate.h; sourceTree = "<group>"; };
+		F7386DD9E490B143CCC0F1236EC5E54C /* NSNotificationCenter+HLHExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+HLHExtend.h"; sourceTree = "<group>"; };
+		FFD801D1182696F73D5AC9648B5F2E70 /* Constraints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Constraints.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61CB0EE8F3016FAC8D280D7E8D050C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49747085F72E660C6DFF30CF76F387B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F74EA27B9A462E16A3A13CB4279219A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8D9ADEEA5A6939C4F6F85DD4F9395F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF7EEDF1A88F5EC73AAEDF37DDCFDE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C1C24937DB5D7EA5090BDCA27D23139 /* CommonTable */ = {
+			isa = PBXGroup;
+			children = (
+				AC82BC31D1E6F9649A764589745360B7 /* HLHCommonTableData.h */,
+				8B50C70394F80E9B4C2507EB2F42CBAC /* HLHCommonTableData.m */,
+				F58EDC21105B3595C6F906E400A6C70B /* HLHCommonTableDelegate.h */,
+				22A3B9DCB2232AAC3E1691C0ABC86B98 /* HLHCommonTableDelegate.m */,
+				04EAF9B11DF834130E6B3F48A4B1F90A /* HLHCommonTableViewCell.h */,
+			);
+			name = CommonTable;
+			path = CommonTable;
+			sourceTree = "<group>";
+		};
+		244ECB8FBFABA089C69B1CA0FA8E7A81 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6154B1130A3E40C7EE6B10DD60E93B01 /* Pods-HLHComponent_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		29F62C1BB40468E41FD700E8DFFC4755 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				FFD801D1182696F73D5AC9648B5F2E70 /* Constraints.h */,
+				81438DEDED0C9B580FDC6ADDD37FE05B /* HLHGlobalMacro.h */,
+			);
+			name = Define;
+			path = Define;
+			sourceTree = "<group>";
+		};
+		56CFD49C54AC1F34ADE03FFEA70EE732 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				85CFD3FE0F0DDB00F6D1D13BB337EA7B /* CommonView */,
+				29F62C1BB40468E41FD700E8DFFC4755 /* Define */,
+				60CF819389A507194A79447B7B298EC0 /* Foundation */,
+				7537B23C7FD4AA503CC6D56020AB6331 /* Model */,
+				BB1D1EF4F8F7402B8D4165618AED4885 /* UIKit */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		60CF819389A507194A79447B7B298EC0 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				665A793753CB903DB71D89AFD5109CF6 /* NSDate+HLHExtend.h */,
+				AFE55FCA9C11F2E1BA4DD3FD0E365E16 /* NSDate+HLHExtend.m */,
+				8E02FABEA7E064F167F69F36DD11BE1E /* NSDictionary+HLHExtend.h */,
+				71DA07A1888E63126D9AAE474A5779D7 /* NSDictionary+HLHExtend.m */,
+				F7386DD9E490B143CCC0F1236EC5E54C /* NSNotificationCenter+HLHExtend.h */,
+				2F07E2A5EB242901BD8D1D50CA118A81 /* NSNotificationCenter+HLHExtend.m */,
+				402164C6440EB28A5E8EE10901A68E13 /* NSString+HLHExtend.h */,
+				44E904778383B4522A52EE07909BEEE8 /* NSString+HLHExtend.m */,
+				4DF3B64DEBF2659C7075A7698E47AB12 /* NSTimer+HLHExtend.h */,
+				434E3602D997F53B1875F6A9A2A1CF83 /* NSTimer+HLHExtend.m */,
+			);
+			name = Foundation;
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		6154B1130A3E40C7EE6B10DD60E93B01 /* Pods-HLHComponent_Example */ = {
+			isa = PBXGroup;
+			children = (
+				161487CF002280676DCB2C038BBC4372 /* Info.plist */,
+				116C0D96E21780D1E78E31D1B1940211 /* Pods-HLHComponent_Example.modulemap */,
+				C7E0B8693B833BEB4CE621F413C24774 /* Pods-HLHComponent_Example-acknowledgements.markdown */,
+				504DD8CB42156E87F2468AB04E2EE92E /* Pods-HLHComponent_Example-acknowledgements.plist */,
+				A10FCDA0AC2ADFD1F8C7FB4D13801ECB /* Pods-HLHComponent_Example-dummy.m */,
+				0E31344ADA183943193554DB6659B7D9 /* Pods-HLHComponent_Example-frameworks.sh */,
+				A7DBD5A624FA18F0C4A4971AE97CF5F2 /* Pods-HLHComponent_Example-resources.sh */,
+				88D448E791C99A3CCCA70CC89B25AC0B /* Pods-HLHComponent_Example-umbrella.h */,
+				D0276070BBEBFBEECE52E2B0F6768618 /* Pods-HLHComponent_Example.debug.xcconfig */,
+				69437241C965DE3F58CE16C5DD58A9C3 /* Pods-HLHComponent_Example.release.xcconfig */,
+			);
+			name = "Pods-HLHComponent_Example";
+			path = "Target Support Files/Pods-HLHComponent_Example";
+			sourceTree = "<group>";
+		};
+		7537B23C7FD4AA503CC6D56020AB6331 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32A33FBD96814B9CE1423A84E788AB9A /* NSObject+YYModel.h */,
+				A161CE1238242B87FA96E48988802EDE /* NSObject+YYModel.m */,
+				788BB8E9BD741A4E5F920CA4DCA3A05E /* YYClassInfo.h */,
+				86D1382531385F22B759E5AAE4D46BF7 /* YYClassInfo.m */,
+			);
+			name = Model;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9E991D586B53602C4CAB36BBEF4B51F2 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FCB097555BFF7FFE5A2812415C387354 /* Products */,
+				244ECB8FBFABA089C69B1CA0FA8E7A81 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85CFD3FE0F0DDB00F6D1D13BB337EA7B /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				0C1C24937DB5D7EA5090BDCA27D23139 /* CommonTable */,
+			);
+			name = CommonView;
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		8A5C3EC2AB50F5D952EDF8513BDC3C26 /* HLHComponent */ = {
+			isa = PBXGroup;
+			children = (
+				8AD11D79F33A0374E2B342043E19E284 /* HLHComponent */,
+				A32E4292CF0AB73DB3A06F4285322943 /* Support Files */,
+			);
+			name = HLHComponent;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8AD11D79F33A0374E2B342043E19E284 /* HLHComponent */ = {
+			isa = PBXGroup;
+			children = (
+				56CFD49C54AC1F34ADE03FFEA70EE732 /* Classes */,
+			);
+			name = HLHComponent;
+			path = HLHComponent;
+			sourceTree = "<group>";
+		};
+		9E991D586B53602C4CAB36BBEF4B51F2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A5C3EC2AB50F5D952EDF8513BDC3C26 /* HLHComponent */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A32E4292CF0AB73DB3A06F4285322943 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E49D5FA369E7FD6701BF34784FF75961 /* HLHComponent.modulemap */,
+				52739D58F062D7550A0FF5F2A8F330AE /* HLHComponent.xcconfig */,
+				86BF8BE916DF2FADFEA2A1CD10774980 /* HLHComponent-dummy.m */,
+				96BB78B34910CCCBF04F5BB9EEFF0719 /* HLHComponent-prefix.pch */,
+				B276A96010484D31D77DE9566BE623A0 /* HLHComponent-umbrella.h */,
+				4FD7CC581DEBF33A3D6A8F67DDEE5DCC /* Info.plist */,
+				55531A3D0B19E66202F646D4E7C039CC /* ResourceBundle-HLHComponent-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HLHComponent";
+			sourceTree = "<group>";
+		};
+		BB1D1EF4F8F7402B8D4165618AED4885 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				8853830CC7C7F60291B9E9DA0D3B6A22 /* UIButton+HLHExtend.h */,
+				9C69380FAF80EFDD2A4BE71EEB1B6CC3 /* UIButton+HLHExtend.m */,
+				6ADCCBA654C0A5D6753787A1A4C61A3B /* UIColor+HLHExtend.h */,
+				9721BEF201DADA5AF747E2D604C45AA2 /* UIColor+HLHExtend.m */,
+				92214A0186760CDEE15A3EE16E586278 /* UIDevice+HLHExtend.h */,
+				AC5C56EE4ADCE526C1E47CB17B29E48C /* UIDevice+HLHExtend.m */,
+				22EC0E0008137297B6FB434F1A03C05B /* UIImage+HLHExtend.h */,
+				1BE71D36EC863B91C921B4F24168055A /* UIImage+HLHExtend.m */,
+				738C61D2E8AC3FAFEFC426B7C8ABB370 /* UITextField+HLHExtend.h */,
+				986DEC68C2D2C1CD89248D7214B95BF7 /* UITextField+HLHExtend.m */,
+				5205080308D84868AA1A4F5CD2164E16 /* UIView+HLHExtend.h */,
+				E6B2E678413312C28506AF0319F808EB /* UIView+HLHExtend.m */,
+			);
+			name = UIKit;
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FCB097555BFF7FFE5A2812415C387354 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				630F43FBDD644A35021A5958FE03EAEB /* HLHComponent.bundle */,
+				6A48F6AF00156E0F79801785FA9D7B28 /* HLHComponent.framework */,
+				857DCCE314B01DFC062C4F6733DC4213 /* Pods_HLHComponent_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BD2464425E7CE3571374DE863B65E00E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32CD0596471678FA4E2E6CD88125A342 /* Constraints.h in Headers */,
+				46478F2EBA44450755F9D2710120F45F /* HLHCommonTableData.h in Headers */,
+				52E570528BA16E63670C4F6C818227D2 /* HLHCommonTableDelegate.h in Headers */,
+				87A7C7999002BC0EA88D3C7EA81FA92A /* HLHCommonTableViewCell.h in Headers */,
+				1424F502766E8E07CDE7ED81631DC153 /* HLHComponent-umbrella.h in Headers */,
+				2D5DB56084F3D3D8AB14DBD1598F4995 /* HLHGlobalMacro.h in Headers */,
+				BD27913613E9D8F47108C2A092E5C233 /* NSDate+HLHExtend.h in Headers */,
+				AE089F9DF2631EB25A35D5654B82ED56 /* NSDictionary+HLHExtend.h in Headers */,
+				124019BA9C5B3DFB4D872EA02AA4D65D /* NSNotificationCenter+HLHExtend.h in Headers */,
+				86B58418631EDC814E0F75D55DC0869A /* NSObject+YYModel.h in Headers */,
+				9A2B3878D8DEE3DE6F70DB88ED08DE8D /* NSString+HLHExtend.h in Headers */,
+				63F6DBD1B32F41F392833ED5116DFE46 /* NSTimer+HLHExtend.h in Headers */,
+				0180CA7E0B1B44524B43F3E554A7411F /* UIButton+HLHExtend.h in Headers */,
+				8C98B65C58E303FF526658008595930F /* UIColor+HLHExtend.h in Headers */,
+				0400DF60C57F6B8BD5C887D3C8244E13 /* UIDevice+HLHExtend.h in Headers */,
+				0E0DB13AFFCB51E9232B1A7FE47E2062 /* UIImage+HLHExtend.h in Headers */,
+				2E9EE4DA62D133933151C39167E73176 /* UITextField+HLHExtend.h in Headers */,
+				0431D9C4B80B726A76D82B32D1883077 /* UIView+HLHExtend.h in Headers */,
+				BD50483327DCB9563C981124849874C7 /* YYClassInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE95C12EF9C7154AEFEEF49413B9879A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F36FAFB43455B2427A8E2B917BBA214 /* Pods-HLHComponent_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C66757FAEA78D48D30EB44FB197BB84 /* Pods-HLHComponent_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA89FC9AD505A6BC14AE3C62A48053C /* Build configuration list for PBXNativeTarget "Pods-HLHComponent_Example" */;
+			buildPhases = (
+				8FA29C52510BECA678638469881DC7AE /* Sources */,
+				7F74EA27B9A462E16A3A13CB4279219A /* Frameworks */,
+				CE95C12EF9C7154AEFEEF49413B9879A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B68518EB9C3B6684C41DFEC8BD56B7DE /* PBXTargetDependency */,
+			);
+			name = "Pods-HLHComponent_Example";
+			productName = "Pods-HLHComponent_Example";
+			productReference = 857DCCE314B01DFC062C4F6733DC4213 /* Pods_HLHComponent_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A62A2265FABE8BB6A56D6474689556F5 /* HLHComponent-HLHComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9995728B9CB2B2E90D10DDB657C5B27 /* Build configuration list for PBXNativeTarget "HLHComponent-HLHComponent" */;
+			buildPhases = (
+				B08D283C68161DD79018F13BBF39B54A /* Sources */,
+				9FF7EEDF1A88F5EC73AAEDF37DDCFDE2 /* Frameworks */,
+				CA78884F92CC78FC66D74F5EC2CFE81C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HLHComponent-HLHComponent";
+			productName = "HLHComponent-HLHComponent";
+			productReference = 630F43FBDD644A35021A5958FE03EAEB /* HLHComponent.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C786C39DA1ACA3C0B16CA9E3131871BF /* HLHComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E4B4A58838914AB336989F917ED36F2 /* Build configuration list for PBXNativeTarget "HLHComponent" */;
+			buildPhases = (
+				C2CCB4BB39161BA9EE909A3C7BD69D0F /* Sources */,
+				61CB0EE8F3016FAC8D280D7E8D050C86 /* Frameworks */,
+				8E42354873BDC337F5BCF2F81BB61046 /* Resources */,
+				BD2464425E7CE3571374DE863B65E00E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DA69F50793086D53AFD65D34677D2B0 /* PBXTargetDependency */,
+			);
+			name = HLHComponent;
+			productName = HLHComponent;
+			productReference = 6A48F6AF00156E0F79801785FA9D7B28 /* HLHComponent.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FCB097555BFF7FFE5A2812415C387354 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C786C39DA1ACA3C0B16CA9E3131871BF /* HLHComponent */,
+				A62A2265FABE8BB6A56D6474689556F5 /* HLHComponent-HLHComponent */,
+				0C66757FAEA78D48D30EB44FB197BB84 /* Pods-HLHComponent_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E42354873BDC337F5BCF2F81BB61046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A5D0F92E09DE9E6F65C0715B19E7ED /* HLHComponent.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA78884F92CC78FC66D74F5EC2CFE81C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FA29C52510BECA678638469881DC7AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A5C876548D24F610ED650D66145DDD /* Pods-HLHComponent_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08D283C68161DD79018F13BBF39B54A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2CCB4BB39161BA9EE909A3C7BD69D0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFB90646AD48889F02B694C54A90F4E /* HLHCommonTableData.m in Sources */,
+				8B68B991DEC966ABA2A69DC2561B7400 /* HLHCommonTableDelegate.m in Sources */,
+				5461E438E1B0C7F5EF30B9430D0FDFBC /* HLHComponent-dummy.m in Sources */,
+				658A898F84B5691FB7A69AE0553F349A /* NSDate+HLHExtend.m in Sources */,
+				E12906BEF640BDC0C3E00826841EF0DF /* NSDictionary+HLHExtend.m in Sources */,
+				9EDDEC19AFE83DDF1AD853D3A50C38C0 /* NSNotificationCenter+HLHExtend.m in Sources */,
+				F5E21063D756BE0D28898EE24589DFFA /* NSObject+YYModel.m in Sources */,
+				AB1F7EE60113EACA8B4EC10C2F93252E /* NSString+HLHExtend.m in Sources */,
+				5CB25E1525AF26AB5789E2569FFD5D7F /* NSTimer+HLHExtend.m in Sources */,
+				6EB869401C7A8A98F4061AB8AE89EB2E /* UIButton+HLHExtend.m in Sources */,
+				D41A9DDFC92A5E9EA0E0ACFF4D1D0E8A /* UIColor+HLHExtend.m in Sources */,
+				F2E8E27F775370BB1C80A7EE37F989A7 /* UIDevice+HLHExtend.m in Sources */,
+				0573F0877FD7F16195E337BCA583AC1F /* UIImage+HLHExtend.m in Sources */,
+				CCB56C6C1F887734ECF1F37AE69DE351 /* UITextField+HLHExtend.m in Sources */,
+				81533EB218A7642652665F0E847466F1 /* UIView+HLHExtend.m in Sources */,
+				8B9AF5CDD2293866F8D0C59219F8DBCD /* YYClassInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DA69F50793086D53AFD65D34677D2B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HLHComponent-HLHComponent";
+			target = A62A2265FABE8BB6A56D6474689556F5 /* HLHComponent-HLHComponent */;
+			targetProxy = 5B5FC5A1A7C758FB0D9C6C5BAB8F1AC5 /* PBXContainerItemProxy */;
+		};
+		B68518EB9C3B6684C41DFEC8BD56B7DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HLHComponent;
+			target = C786C39DA1ACA3C0B16CA9E3131871BF /* HLHComponent */;
+			targetProxy = 479B22D66E767CBFBBDFE0648CADD289 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C9365FC0B90DEEE5CD7FB84A33E2BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52739D58F062D7550A0FF5F2A8F330AE /* HLHComponent.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HLHComponent";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/HLHComponent/ResourceBundle-HLHComponent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = HLHComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6380794ED6029B3A194E337354571C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52739D58F062D7550A0FF5F2A8F330AE /* HLHComponent.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HLHComponent";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/HLHComponent/ResourceBundle-HLHComponent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = HLHComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6B0297ABB3A13162D304EF0029E3C2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69437241C965DE3F58CE16C5DD58A9C3 /* Pods-HLHComponent_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HLHComponent_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HLHComponent_Example/Pods-HLHComponent_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HLHComponent_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72F5C1E4403217F5C7388064CB9F92B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52739D58F062D7550A0FF5F2A8F330AE /* HLHComponent.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HLHComponent/HLHComponent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HLHComponent/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HLHComponent/HLHComponent.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HLHComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB584F55DD7B5066A5E7FAFA331DAEA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0276070BBEBFBEECE52E2B0F6768618 /* Pods-HLHComponent_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HLHComponent_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HLHComponent_Example/Pods-HLHComponent_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HLHComponent_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1B7CD63BA39281163398597F583FAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52739D58F062D7550A0FF5F2A8F330AE /* HLHComponent.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HLHComponent/HLHComponent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HLHComponent/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HLHComponent/HLHComponent.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HLHComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E4B4A58838914AB336989F917ED36F2 /* Build configuration list for PBXNativeTarget "HLHComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F5C1E4403217F5C7388064CB9F92B5 /* Debug */,
+				C1B7CD63BA39281163398597F583FAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA89FC9AD505A6BC14AE3C62A48053C /* Build configuration list for PBXNativeTarget "Pods-HLHComponent_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB584F55DD7B5066A5E7FAFA331DAEA9 /* Debug */,
+				6B0297ABB3A13162D304EF0029E3C2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9995728B9CB2B2E90D10DDB657C5B27 /* Build configuration list for PBXNativeTarget "HLHComponent-HLHComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6380794ED6029B3A194E337354571C5B /* Debug */,
+				5C9365FC0B90DEEE5CD7FB84A33E2BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
