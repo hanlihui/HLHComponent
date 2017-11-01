@@ -22,7 +22,7 @@ pod 'HLHComponent'
 
 ## Author
 
-hanlihui, 806236860@qq.com
+lihuihan, lihui.han@qq.com
 
 ## License
 
